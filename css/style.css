@@ -7,82 +7,72 @@ section{
     display: flex;
     margin-bottom: 4%;
 }
-.text{
+.text-area{
+    margin-right: 5%;
     margin-left: 5%;
     padding: 2%;
     width: 50%; 
 }
-#heading{
+#text-big{
     color: #575757;
     font-size: 60px;
-    padding-top: 20%;
+    padding-top: 7%;
 }
-#dif-color{
+#orange{
     color: orange;
 }
-#slog{
+#text-sml{
     font-size: 20px;
     padding-bottom: 5%;
+    color: #5B5B5B;
 }
-#order-btn{
+#btn{
     color: white;
     font-size: 20px;
     font-weight: bold;
     padding: 2% 5% 2% 5%;
     border-radius: 25px;
-    margin-top: 5px;
     text-decoration: none;
     background-image: linear-gradient(red, orange);
 }
-.img{
-    margin-top: 1%;
-    margin-right: 3%;
+.img-area{
+    margin: 0;
+    padding: 0;
 }
 
-.bg-image{
+.about-section{
     margin-bottom: 5%;
     background-image: url("/image/img-bg4.jpg");
     background-repeat: no-repeat;
 }
-.front-img{
+.img-area-left{
     margin-left: 10%;
-    width: 70%;
     
 }
 img{
     margin-top: 3%;
     padding-top: 5%;
-    height: 500px;
+    height: 550px;
 }
-.about{
+.text-area-right{
+    margin-left: 2%;
     color: #575757;
-    margin-left: 7%;
-    padding-right: 10%;
-    padding-top: 5%;
-    padding-left: 05%;
+    padding: 10% 7% 0% 5%;
 }
-#about{
-    font-size: 40px;
-}
-#contact-btn{
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 3% 5% 3% 5%;
-    border-radius: 25px;
-    margin-top: 5px;
-    text-decoration: none;
-    background-image: linear-gradient(red, orange);
-}
-#p-tag{
-    font-size: 18px;
-    padding-bottom: 15%;
+#about-me{
+    font-size: 50px;
 }
 
-.my-recipie{
+#p{
+    color: #5B5B5B;
+    font-size: 18px;
+    padding-bottom: 20%;
+}
+
+.my-rcp{
     margin-bottom: 0;
 }
-.recipie{
+.rcp-txt-sml{
     font-weight: bold;
     color: #575757;
     width: 100%;
@@ -96,41 +86,43 @@ img{
     font-size: 35px;
 }
 
-.recipie-list{
+.rcp-list{
     width: 100%;
     margin-left: 8%;
     margin-right: 8%;
     display: flex;
 }
 
-#recipie-item{
+.rcp-item{
     border-radius: 25px;
     box-shadow: 30px 30px 60px rgb(219, 218, 218);
     text-align: center;
     background-color: white;
     margin: 2%;
     padding: 0%;
-    height: 550px;
+    height: 450px;
     width: 30%;
 }
 #item-img{
-    margin-top: 0px;
-    width: 300px;
+    padding: 0;
+    border-radius: 20px;
+    width: 307px;
     height: 250px;
 }
 #item-title{
+    color: #575757;
     font-size: 25px;
     font-weight: bold;
     text-align: left;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding: 0% 4% 0% 4%;
 }
-#item-detail{
+#item-txt-sml{
+    color: #575757;
     text-align: left;
     text-align: justify;
-    padding: 3%;
+    padding: 0% 4% 0% 4%;
 }
-.social-net{
+.social-div{
     border-radius: 25px;
     width: 100%;
     box-shadow: 10px 10px 20px rgb(204, 202, 202);
@@ -141,12 +133,9 @@ img{
 }
 #follower{
     text-align: center;
-    margin: 1%;
-    padding: 2%;
     width: 30%;
 }
-#follower-title{
-    padding-bottom: 0px;
+#flwr-txt{
     font-weight: bold;
     font-size: 50px;
 }
