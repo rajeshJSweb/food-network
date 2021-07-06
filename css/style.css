@@ -35,29 +35,29 @@ section{
     text-decoration: none;
     background-image: linear-gradient(red, orange);
 }
-.img-area{
-    margin: 0;
-    padding: 0;
-}
 
-.about{
-    margin-bottom: 5%;
-    background-image: url("/image/img-bg4.jpg");
+.middle-area{
+    width: 100%;
+    background-image: url("../image/img-bg4.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .img-area-left{
-    margin-left: 10%;
+    width: 50%;
+    margin-left: 5%;
     
 }
 img{
     margin-top: 3%;
     padding-top: 5%;
-    height: 550px;
+    height: 600px;
 }
 .text-area-right{
-    margin-left: 2%;
+    text-align: justify;
+    margin-right: 5%;
+    margin-left: 4%;
     color: #575757;
-    padding: 10% 7% 0% 5%;
+    padding: 10% 0% 0% 5%;
 }
 #about-me{
     font-size: 50px;
@@ -66,7 +66,7 @@ img{
 #p{
     color: #5B5B5B;
     font-size: 18px;
-    padding-bottom: 20%;
+    padding-bottom: 15%;
 }
 
 .my-rcp{
@@ -100,7 +100,7 @@ img{
     background-color: white;
     margin: 2%;
     padding: 0%;
-    height: 550px;
+    height: 500px;
     width: 30%;
 }
 #item-img{
@@ -131,13 +131,20 @@ img{
     margin-right: 10%;
     display: flex;
 }
-#follower{
+#flwr{
+    font-weight: bold;
+    height: 180px;
+    padding-bottom: 0%;
     text-align: center;
     width: 30%;
 }
 #flwr-txt{
-    font-weight: bold;
+    margin: 0;
+    padding-top: 13%;
     font-size: 50px;
+}
+#flwr-txt-sml{
+    color: #777575;
 }
 .footer{
     padding-top: 2%;
